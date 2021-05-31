@@ -12,3 +12,9 @@ if(ptr==NULL)
   printf("memory is not allocated");
 }
 }
+// add members 
+
+for(i=0;i<n;++i)
+{
+  ptr[i]=i+1;
+}
